@@ -1,4 +1,4 @@
-# small-sample-experiments
+# Code to reproduce experiments from: Algorithms for Generating Small Random Samples
 
 This repository contains the code and raw experiment data for the the following report:
 
