@@ -1,0 +1,2199 @@
+
+Experiments generating small random samples
+Copyright (C) 2024 Vincent A. Cicirello
+This program comes with ABSOLUTELY NO WARRANTY.  This is free
+software, and you are welcome to redistribute it under certain
+conditions.  See the GNU General Public License for more
+details: https://www.gnu.org/licenses/gpl-3.0.html
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairPreconstructedArray
+# Parameters: (n = 16)
+
+# Run progress: 0.00% complete, ETA 01:46:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 16.049 ns/op
+# Warmup Iteration   2: 17.667 ns/op
+# Warmup Iteration   3: 14.092 ns/op
+# Warmup Iteration   4: 13.772 ns/op
+# Warmup Iteration   5: 13.720 ns/op
+Iteration   1: 13.739 ns/op
+Iteration   2: 13.733 ns/op
+Iteration   3: 13.588 ns/op
+Iteration   4: 13.722 ns/op
+Iteration   5: 13.716 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairPreconstructedArray":
+  13.699 ±(99.9%) 0.242 ns/op [Average]
+  (min, avg, max) = (13.588, 13.699, 13.739), stdev = 0.063
+  CI (99.9%): [13.458, 13.941] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairPreconstructedArray
+# Parameters: (n = 64)
+
+# Run progress: 1.56% complete, ETA 01:45:43
+# Fork: 1 of 1
+# Warmup Iteration   1: 15.770 ns/op
+# Warmup Iteration   2: 16.017 ns/op
+# Warmup Iteration   3: 13.281 ns/op
+# Warmup Iteration   4: 13.282 ns/op
+# Warmup Iteration   5: 13.286 ns/op
+Iteration   1: 13.279 ns/op
+Iteration   2: 13.351 ns/op
+Iteration   3: 13.282 ns/op
+Iteration   4: 13.279 ns/op
+Iteration   5: 13.287 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairPreconstructedArray":
+  13.296 ±(99.9%) 0.120 ns/op [Average]
+  (min, avg, max) = (13.279, 13.296, 13.351), stdev = 0.031
+  CI (99.9%): [13.176, 13.416] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairPreconstructedArray
+# Parameters: (n = 256)
+
+# Run progress: 3.13% complete, ETA 01:44:03
+# Fork: 1 of 1
+# Warmup Iteration   1: 15.828 ns/op
+# Warmup Iteration   2: 15.798 ns/op
+# Warmup Iteration   3: 13.175 ns/op
+# Warmup Iteration   4: 13.170 ns/op
+# Warmup Iteration   5: 13.172 ns/op
+Iteration   1: 13.183 ns/op
+Iteration   2: 13.175 ns/op
+Iteration   3: 13.168 ns/op
+Iteration   4: 13.069 ns/op
+Iteration   5: 13.183 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairPreconstructedArray":
+  13.156 ±(99.9%) 0.187 ns/op [Average]
+  (min, avg, max) = (13.069, 13.156, 13.183), stdev = 0.049
+  CI (99.9%): [12.968, 13.343] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairPreconstructedArray
+# Parameters: (n = 1024)
+
+# Run progress: 4.69% complete, ETA 01:42:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 16.743 ns/op
+# Warmup Iteration   2: 16.642 ns/op
+# Warmup Iteration   3: 13.290 ns/op
+# Warmup Iteration   4: 13.310 ns/op
+# Warmup Iteration   5: 13.308 ns/op
+Iteration   1: 13.347 ns/op
+Iteration   2: 13.201 ns/op
+Iteration   3: 13.149 ns/op
+Iteration   4: 13.069 ns/op
+Iteration   5: 13.150 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairPreconstructedArray":
+  13.183 ±(99.9%) 0.396 ns/op [Average]
+  (min, avg, max) = (13.069, 13.183, 13.347), stdev = 0.103
+  CI (99.9%): [12.788, 13.579] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairReturningArray
+# Parameters: (n = 16)
+
+# Run progress: 6.25% complete, ETA 01:40:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 18.575 ns/op
+# Warmup Iteration   2: 20.480 ns/op
+# Warmup Iteration   3: 16.128 ns/op
+# Warmup Iteration   4: 16.105 ns/op
+# Warmup Iteration   5: 16.087 ns/op
+Iteration   1: 16.068 ns/op
+Iteration   2: 16.092 ns/op
+Iteration   3: 16.064 ns/op
+Iteration   4: 16.096 ns/op
+Iteration   5: 16.101 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairReturningArray":
+  16.084 ±(99.9%) 0.065 ns/op [Average]
+  (min, avg, max) = (16.064, 16.084, 16.101), stdev = 0.017
+  CI (99.9%): [16.019, 16.150] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairReturningArray
+# Parameters: (n = 64)
+
+# Run progress: 7.81% complete, ETA 01:39:07
+# Fork: 1 of 1
+# Warmup Iteration   1: 19.685 ns/op
+# Warmup Iteration   2: 21.452 ns/op
+# Warmup Iteration   3: 15.559 ns/op
+# Warmup Iteration   4: 15.564 ns/op
+# Warmup Iteration   5: 15.561 ns/op
+Iteration   1: 15.539 ns/op
+Iteration   2: 15.555 ns/op
+Iteration   3: 15.536 ns/op
+Iteration   4: 15.563 ns/op
+Iteration   5: 15.537 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairReturningArray":
+  15.546 ±(99.9%) 0.048 ns/op [Average]
+  (min, avg, max) = (15.536, 15.546, 15.563), stdev = 0.012
+  CI (99.9%): [15.498, 15.594] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairReturningArray
+# Parameters: (n = 256)
+
+# Run progress: 9.38% complete, ETA 01:37:24
+# Fork: 1 of 1
+# Warmup Iteration   1: 19.887 ns/op
+# Warmup Iteration   2: 20.067 ns/op
+# Warmup Iteration   3: 15.574 ns/op
+# Warmup Iteration   4: 15.563 ns/op
+# Warmup Iteration   5: 15.567 ns/op
+Iteration   1: 15.560 ns/op
+Iteration   2: 15.578 ns/op
+Iteration   3: 15.869 ns/op
+Iteration   4: 15.585 ns/op
+Iteration   5: 15.570 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairReturningArray":
+  15.633 ±(99.9%) 0.511 ns/op [Average]
+  (min, avg, max) = (15.560, 15.633, 15.869), stdev = 0.133
+  CI (99.9%): [15.122, 16.143] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairReturningArray
+# Parameters: (n = 1024)
+
+# Run progress: 10.94% complete, ETA 01:35:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 19.969 ns/op
+# Warmup Iteration   2: 19.919 ns/op
+# Warmup Iteration   3: 15.466 ns/op
+# Warmup Iteration   4: 15.442 ns/op
+# Warmup Iteration   5: 15.586 ns/op
+Iteration   1: 15.414 ns/op
+Iteration   2: 15.458 ns/op
+Iteration   3: 15.430 ns/op
+Iteration   4: 15.410 ns/op
+Iteration   5: 15.423 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairReturningArray":
+  15.427 ±(99.9%) 0.073 ns/op [Average]
+  (min, avg, max) = (15.410, 15.427, 15.458), stdev = 0.019
+  CI (99.9%): [15.354, 15.500] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairReturningIndexPair
+# Parameters: (n = 16)
+
+# Run progress: 12.50% complete, ETA 01:34:01
+# Fork: 1 of 1
+# Warmup Iteration   1: 15.094 ns/op
+# Warmup Iteration   2: 14.781 ns/op
+# Warmup Iteration   3: 12.447 ns/op
+# Warmup Iteration   4: 12.441 ns/op
+# Warmup Iteration   5: 12.443 ns/op
+Iteration   1: 12.439 ns/op
+Iteration   2: 12.446 ns/op
+Iteration   3: 12.439 ns/op
+Iteration   4: 12.446 ns/op
+Iteration   5: 12.442 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairReturningIndexPair":
+  12.443 ±(99.9%) 0.014 ns/op [Average]
+  (min, avg, max) = (12.439, 12.443, 12.446), stdev = 0.004
+  CI (99.9%): [12.429, 12.456] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairReturningIndexPair
+# Parameters: (n = 64)
+
+# Run progress: 14.06% complete, ETA 01:32:19
+# Fork: 1 of 1
+# Warmup Iteration   1: 15.199 ns/op
+# Warmup Iteration   2: 14.308 ns/op
+# Warmup Iteration   3: 11.951 ns/op
+# Warmup Iteration   4: 11.945 ns/op
+# Warmup Iteration   5: 11.953 ns/op
+Iteration   1: 11.948 ns/op
+Iteration   2: 11.945 ns/op
+Iteration   3: 11.952 ns/op
+Iteration   4: 11.953 ns/op
+Iteration   5: 12.116 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairReturningIndexPair":
+  11.983 ±(99.9%) 0.288 ns/op [Average]
+  (min, avg, max) = (11.945, 11.983, 12.116), stdev = 0.075
+  CI (99.9%): [11.695, 12.271] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairReturningIndexPair
+# Parameters: (n = 256)
+
+# Run progress: 15.63% complete, ETA 01:30:38
+# Fork: 1 of 1
+# Warmup Iteration   1: 17.062 ns/op
+# Warmup Iteration   2: 14.151 ns/op
+# Warmup Iteration   3: 11.875 ns/op
+# Warmup Iteration   4: 11.831 ns/op
+# Warmup Iteration   5: 11.832 ns/op
+Iteration   1: 11.853 ns/op
+Iteration   2: 11.770 ns/op
+Iteration   3: 11.824 ns/op
+Iteration   4: 11.828 ns/op
+Iteration   5: 11.823 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairReturningIndexPair":
+  11.820 ±(99.9%) 0.116 ns/op [Average]
+  (min, avg, max) = (11.770, 11.820, 11.853), stdev = 0.030
+  CI (99.9%): [11.703, 11.936] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairReturningIndexPair
+# Parameters: (n = 1024)
+
+# Run progress: 17.19% complete, ETA 01:28:57
+# Fork: 1 of 1
+# Warmup Iteration   1: 15.174 ns/op
+# Warmup Iteration   2: 14.167 ns/op
+# Warmup Iteration   3: 11.793 ns/op
+# Warmup Iteration   4: 11.793 ns/op
+# Warmup Iteration   5: 11.817 ns/op
+Iteration   1: 11.793 ns/op
+Iteration   2: 11.798 ns/op
+Iteration   3: 12.082 ns/op
+Iteration   4: 11.795 ns/op
+Iteration   5: 11.795 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntPairReturningIndexPair":
+  11.853 ±(99.9%) 0.494 ns/op [Average]
+  (min, avg, max) = (11.793, 11.853, 12.082), stdev = 0.128
+  CI (99.9%): [11.359, 12.347] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTriplePreconstructedArray
+# Parameters: (n = 16)
+
+# Run progress: 18.75% complete, ETA 01:27:16
+# Fork: 1 of 1
+# Warmup Iteration   1: 25.301 ns/op
+# Warmup Iteration   2: 25.535 ns/op
+# Warmup Iteration   3: 21.723 ns/op
+# Warmup Iteration   4: 21.790 ns/op
+# Warmup Iteration   5: 21.719 ns/op
+Iteration   1: 21.738 ns/op
+Iteration   2: 21.714 ns/op
+Iteration   3: 21.714 ns/op
+Iteration   4: 21.728 ns/op
+Iteration   5: 21.740 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTriplePreconstructedArray":
+  21.727 ±(99.9%) 0.048 ns/op [Average]
+  (min, avg, max) = (21.714, 21.727, 21.740), stdev = 0.013
+  CI (99.9%): [21.678, 21.775] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTriplePreconstructedArray
+# Parameters: (n = 64)
+
+# Run progress: 20.31% complete, ETA 01:25:35
+# Fork: 1 of 1
+# Warmup Iteration   1: 23.920 ns/op
+# Warmup Iteration   2: 23.967 ns/op
+# Warmup Iteration   3: 20.495 ns/op
+# Warmup Iteration   4: 20.504 ns/op
+# Warmup Iteration   5: 20.499 ns/op
+Iteration   1: 20.532 ns/op
+Iteration   2: 20.497 ns/op
+Iteration   3: 20.523 ns/op
+Iteration   4: 20.494 ns/op
+Iteration   5: 20.509 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTriplePreconstructedArray":
+  20.511 ±(99.9%) 0.063 ns/op [Average]
+  (min, avg, max) = (20.494, 20.511, 20.532), stdev = 0.016
+  CI (99.9%): [20.448, 20.574] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTriplePreconstructedArray
+# Parameters: (n = 256)
+
+# Run progress: 21.88% complete, ETA 01:23:54
+# Fork: 1 of 1
+# Warmup Iteration   1: 21.871 ns/op
+# Warmup Iteration   2: 21.392 ns/op
+# Warmup Iteration   3: 21.048 ns/op
+# Warmup Iteration   4: 21.044 ns/op
+# Warmup Iteration   5: 21.007 ns/op
+Iteration   1: 21.049 ns/op
+Iteration   2: 21.040 ns/op
+Iteration   3: 21.037 ns/op
+Iteration   4: 21.040 ns/op
+Iteration   5: 21.027 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTriplePreconstructedArray":
+  21.039 ±(99.9%) 0.031 ns/op [Average]
+  (min, avg, max) = (21.027, 21.039, 21.049), stdev = 0.008
+  CI (99.9%): [21.008, 21.069] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTriplePreconstructedArray
+# Parameters: (n = 1024)
+
+# Run progress: 23.44% complete, ETA 01:22:13
+# Fork: 1 of 1
+# Warmup Iteration   1: 23.647 ns/op
+# Warmup Iteration   2: 23.763 ns/op
+# Warmup Iteration   3: 19.969 ns/op
+# Warmup Iteration   4: 19.969 ns/op
+# Warmup Iteration   5: 20.112 ns/op
+Iteration   1: 19.969 ns/op
+Iteration   2: 19.967 ns/op
+Iteration   3: 20.240 ns/op
+Iteration   4: 19.970 ns/op
+Iteration   5: 19.975 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTriplePreconstructedArray":
+  20.024 ±(99.9%) 0.464 ns/op [Average]
+  (min, avg, max) = (19.967, 20.024, 20.240), stdev = 0.121
+  CI (99.9%): [19.560, 20.489] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTripleReturningArray
+# Parameters: (n = 16)
+
+# Run progress: 25.00% complete, ETA 01:20:32
+# Fork: 1 of 1
+# Warmup Iteration   1: 29.351 ns/op
+# Warmup Iteration   2: 29.745 ns/op
+# Warmup Iteration   3: 23.789 ns/op
+# Warmup Iteration   4: 23.796 ns/op
+# Warmup Iteration   5: 23.773 ns/op
+Iteration   1: 23.829 ns/op
+Iteration   2: 23.765 ns/op
+Iteration   3: 23.827 ns/op
+Iteration   4: 23.796 ns/op
+Iteration   5: 23.783 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTripleReturningArray":
+  23.800 ±(99.9%) 0.107 ns/op [Average]
+  (min, avg, max) = (23.765, 23.800, 23.829), stdev = 0.028
+  CI (99.9%): [23.693, 23.907] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTripleReturningArray
+# Parameters: (n = 64)
+
+# Run progress: 26.56% complete, ETA 01:18:51
+# Fork: 1 of 1
+# Warmup Iteration   1: 27.726 ns/op
+# Warmup Iteration   2: 28.116 ns/op
+# Warmup Iteration   3: 23.155 ns/op
+# Warmup Iteration   4: 23.162 ns/op
+# Warmup Iteration   5: 23.153 ns/op
+Iteration   1: 23.168 ns/op
+Iteration   2: 23.155 ns/op
+Iteration   3: 23.164 ns/op
+Iteration   4: 23.180 ns/op
+Iteration   5: 23.149 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTripleReturningArray":
+  23.163 ±(99.9%) 0.046 ns/op [Average]
+  (min, avg, max) = (23.149, 23.163, 23.180), stdev = 0.012
+  CI (99.9%): [23.118, 23.209] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTripleReturningArray
+# Parameters: (n = 256)
+
+# Run progress: 28.13% complete, ETA 01:17:10
+# Fork: 1 of 1
+# Warmup Iteration   1: 24.267 ns/op
+# Warmup Iteration   2: 24.659 ns/op
+# Warmup Iteration   3: 23.428 ns/op
+# Warmup Iteration   4: 23.426 ns/op
+# Warmup Iteration   5: 23.424 ns/op
+Iteration   1: 23.420 ns/op
+Iteration   2: 23.428 ns/op
+Iteration   3: 23.439 ns/op
+Iteration   4: 23.419 ns/op
+Iteration   5: 23.441 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTripleReturningArray":
+  23.430 ±(99.9%) 0.040 ns/op [Average]
+  (min, avg, max) = (23.419, 23.430, 23.441), stdev = 0.010
+  CI (99.9%): [23.389, 23.470] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTripleReturningArray
+# Parameters: (n = 1024)
+
+# Run progress: 29.69% complete, ETA 01:15:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 27.722 ns/op
+# Warmup Iteration   2: 28.325 ns/op
+# Warmup Iteration   3: 22.827 ns/op
+# Warmup Iteration   4: 22.758 ns/op
+# Warmup Iteration   5: 22.751 ns/op
+Iteration   1: 22.778 ns/op
+Iteration   2: 22.752 ns/op
+Iteration   3: 22.739 ns/op
+Iteration   4: 22.748 ns/op
+Iteration   5: 22.757 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTripleReturningArray":
+  22.755 ±(99.9%) 0.055 ns/op [Average]
+  (min, avg, max) = (22.739, 22.755, 22.778), stdev = 0.014
+  CI (99.9%): [22.699, 22.810] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTripleReturningIndexPair
+# Parameters: (n = 16)
+
+# Run progress: 31.25% complete, ETA 01:13:49
+# Fork: 1 of 1
+# Warmup Iteration   1: 23.340 ns/op
+# Warmup Iteration   2: 23.310 ns/op
+# Warmup Iteration   3: 19.221 ns/op
+# Warmup Iteration   4: 19.222 ns/op
+# Warmup Iteration   5: 19.221 ns/op
+Iteration   1: 19.230 ns/op
+Iteration   2: 19.220 ns/op
+Iteration   3: 19.221 ns/op
+Iteration   4: 19.223 ns/op
+Iteration   5: 19.227 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTripleReturningIndexPair":
+  19.224 ±(99.9%) 0.016 ns/op [Average]
+  (min, avg, max) = (19.220, 19.224, 19.230), stdev = 0.004
+  CI (99.9%): [19.208, 19.240] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTripleReturningIndexPair
+# Parameters: (n = 64)
+
+# Run progress: 32.81% complete, ETA 01:12:08
+# Fork: 1 of 1
+# Warmup Iteration   1: 22.247 ns/op
+# Warmup Iteration   2: 21.994 ns/op
+# Warmup Iteration   3: 17.975 ns/op
+# Warmup Iteration   4: 17.984 ns/op
+# Warmup Iteration   5: 17.998 ns/op
+Iteration   1: 17.995 ns/op
+Iteration   2: 17.977 ns/op
+Iteration   3: 17.978 ns/op
+Iteration   4: 17.979 ns/op
+Iteration   5: 17.976 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTripleReturningIndexPair":
+  17.981 ±(99.9%) 0.030 ns/op [Average]
+  (min, avg, max) = (17.976, 17.981, 17.995), stdev = 0.008
+  CI (99.9%): [17.951, 18.011] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTripleReturningIndexPair
+# Parameters: (n = 256)
+
+# Run progress: 34.38% complete, ETA 01:10:27
+# Fork: 1 of 1
+# Warmup Iteration   1: 20.079 ns/op
+# Warmup Iteration   2: 19.964 ns/op
+# Warmup Iteration   3: 18.642 ns/op
+# Warmup Iteration   4: 18.648 ns/op
+# Warmup Iteration   5: 18.641 ns/op
+Iteration   1: 18.664 ns/op
+Iteration   2: 18.640 ns/op
+Iteration   3: 18.623 ns/op
+Iteration   4: 18.674 ns/op
+Iteration   5: 18.738 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTripleReturningIndexPair":
+  18.668 ±(99.9%) 0.169 ns/op [Average]
+  (min, avg, max) = (18.623, 18.668, 18.738), stdev = 0.044
+  CI (99.9%): [18.499, 18.837] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTripleReturningIndexPair
+# Parameters: (n = 1024)
+
+# Run progress: 35.94% complete, ETA 01:08:47
+# Fork: 1 of 1
+# Warmup Iteration   1: 21.683 ns/op
+# Warmup Iteration   2: 21.757 ns/op
+# Warmup Iteration   3: 18.332 ns/op
+# Warmup Iteration   4: 18.335 ns/op
+# Warmup Iteration   5: 18.331 ns/op
+Iteration   1: 18.334 ns/op
+Iteration   2: 18.391 ns/op
+Iteration   3: 18.334 ns/op
+Iteration   4: 18.330 ns/op
+Iteration   5: 18.340 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomCombinations.nextIntTripleReturningIndexPair":
+  18.346 ±(99.9%) 0.098 ns/op [Average]
+  (min, avg, max) = (18.330, 18.346, 18.391), stdev = 0.025
+  CI (99.9%): [18.248, 18.443] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.nextIntPair
+# Parameters: (n = 16)
+
+# Run progress: 37.50% complete, ETA 01:07:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 19.528 ns/op
+# Warmup Iteration   2: 20.842 ns/op
+# Warmup Iteration   3: 15.957 ns/op
+# Warmup Iteration   4: 15.956 ns/op
+# Warmup Iteration   5: 15.959 ns/op
+Iteration   1: 15.937 ns/op
+Iteration   2: 16.206 ns/op
+Iteration   3: 15.948 ns/op
+Iteration   4: 15.941 ns/op
+Iteration   5: 15.951 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.nextIntPair":
+  15.997 ±(99.9%) 0.451 ns/op [Average]
+  (min, avg, max) = (15.937, 15.997, 16.206), stdev = 0.117
+  CI (99.9%): [15.546, 16.447] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.nextIntPair
+# Parameters: (n = 64)
+
+# Run progress: 39.06% complete, ETA 01:05:25
+# Fork: 1 of 1
+# Warmup Iteration   1: 20.133 ns/op
+# Warmup Iteration   2: 20.227 ns/op
+# Warmup Iteration   3: 15.533 ns/op
+# Warmup Iteration   4: 15.540 ns/op
+# Warmup Iteration   5: 15.812 ns/op
+Iteration   1: 15.635 ns/op
+Iteration   2: 15.604 ns/op
+Iteration   3: 15.595 ns/op
+Iteration   4: 15.659 ns/op
+Iteration   5: 15.619 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.nextIntPair":
+  15.622 ±(99.9%) 0.098 ns/op [Average]
+  (min, avg, max) = (15.595, 15.622, 15.659), stdev = 0.025
+  CI (99.9%): [15.525, 15.720] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.nextIntPair
+# Parameters: (n = 256)
+
+# Run progress: 40.63% complete, ETA 01:03:45
+# Fork: 1 of 1
+# Warmup Iteration   1: 20.296 ns/op
+# Warmup Iteration   2: 20.292 ns/op
+# Warmup Iteration   3: 15.578 ns/op
+# Warmup Iteration   4: 15.567 ns/op
+# Warmup Iteration   5: 15.500 ns/op
+Iteration   1: 15.575 ns/op
+Iteration   2: 15.798 ns/op
+Iteration   3: 15.946 ns/op
+Iteration   4: 15.586 ns/op
+Iteration   5: 15.587 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.nextIntPair":
+  15.698 ±(99.9%) 0.642 ns/op [Average]
+  (min, avg, max) = (15.575, 15.698, 15.946), stdev = 0.167
+  CI (99.9%): [15.056, 16.340] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.nextIntPair
+# Parameters: (n = 1024)
+
+# Run progress: 42.19% complete, ETA 01:02:04
+# Fork: 1 of 1
+# Warmup Iteration   1: 20.298 ns/op
+# Warmup Iteration   2: 20.189 ns/op
+# Warmup Iteration   3: 15.740 ns/op
+# Warmup Iteration   4: 15.758 ns/op
+# Warmup Iteration   5: 15.747 ns/op
+Iteration   1: 15.747 ns/op
+Iteration   2: 15.738 ns/op
+Iteration   3: 15.751 ns/op
+Iteration   4: 15.746 ns/op
+Iteration   5: 15.745 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.nextIntPair":
+  15.745 ±(99.9%) 0.019 ns/op [Average]
+  (min, avg, max) = (15.738, 15.745, 15.751), stdev = 0.005
+  CI (99.9%): [15.727, 15.764] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleInsertionPairs
+# Parameters: (n = 16)
+
+# Run progress: 43.75% complete, ETA 01:00:23
+# Fork: 1 of 1
+# Warmup Iteration   1: 29.040 ns/op
+# Warmup Iteration   2: 30.670 ns/op
+# Warmup Iteration   3: 24.129 ns/op
+# Warmup Iteration   4: 24.125 ns/op
+# Warmup Iteration   5: 24.135 ns/op
+Iteration   1: 24.117 ns/op
+Iteration   2: 24.096 ns/op
+Iteration   3: 24.098 ns/op
+Iteration   4: 24.082 ns/op
+Iteration   5: 24.104 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleInsertionPairs":
+  24.099 ±(99.9%) 0.049 ns/op [Average]
+  (min, avg, max) = (24.082, 24.099, 24.117), stdev = 0.013
+  CI (99.9%): [24.050, 24.149] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleInsertionPairs
+# Parameters: (n = 64)
+
+# Run progress: 45.31% complete, ETA 00:58:43
+# Fork: 1 of 1
+# Warmup Iteration   1: 30.732 ns/op
+# Warmup Iteration   2: 30.542 ns/op
+# Warmup Iteration   3: 24.132 ns/op
+# Warmup Iteration   4: 24.119 ns/op
+# Warmup Iteration   5: 24.128 ns/op
+Iteration   1: 24.114 ns/op
+Iteration   2: 24.139 ns/op
+Iteration   3: 24.156 ns/op
+Iteration   4: 24.122 ns/op
+Iteration   5: 24.189 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleInsertionPairs":
+  24.144 ±(99.9%) 0.115 ns/op [Average]
+  (min, avg, max) = (24.114, 24.144, 24.189), stdev = 0.030
+  CI (99.9%): [24.029, 24.258] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleInsertionPairs
+# Parameters: (n = 256)
+
+# Run progress: 46.88% complete, ETA 00:57:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 31.637 ns/op
+# Warmup Iteration   2: 30.493 ns/op
+# Warmup Iteration   3: 24.252 ns/op
+# Warmup Iteration   4: 24.253 ns/op
+# Warmup Iteration   5: 24.335 ns/op
+Iteration   1: 24.274 ns/op
+Iteration   2: 24.257 ns/op
+Iteration   3: 24.250 ns/op
+Iteration   4: 24.255 ns/op
+Iteration   5: 24.250 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleInsertionPairs":
+  24.257 ±(99.9%) 0.039 ns/op [Average]
+  (min, avg, max) = (24.250, 24.257, 24.274), stdev = 0.010
+  CI (99.9%): [24.218, 24.296] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleInsertionPairs
+# Parameters: (n = 1024)
+
+# Run progress: 48.44% complete, ETA 00:55:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 31.329 ns/op
+# Warmup Iteration   2: 30.297 ns/op
+# Warmup Iteration   3: 23.600 ns/op
+# Warmup Iteration   4: 23.587 ns/op
+# Warmup Iteration   5: 23.635 ns/op
+Iteration   1: 23.585 ns/op
+Iteration   2: 23.582 ns/op
+Iteration   3: 23.623 ns/op
+Iteration   4: 23.605 ns/op
+Iteration   5: 23.606 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleInsertionPairs":
+  23.600 ±(99.9%) 0.065 ns/op [Average]
+  (min, avg, max) = (23.582, 23.600, 23.623), stdev = 0.017
+  CI (99.9%): [23.535, 23.665] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.samplePoolPairs
+# Parameters: (n = 16)
+
+# Run progress: 50.00% complete, ETA 00:53:41
+# Fork: 1 of 1
+# Warmup Iteration   1: 51.534 ns/op
+# Warmup Iteration   2: 63.996 ns/op
+# Warmup Iteration   3: 55.149 ns/op
+# Warmup Iteration   4: 55.121 ns/op
+# Warmup Iteration   5: 54.948 ns/op
+Iteration   1: 55.052 ns/op
+Iteration   2: 54.973 ns/op
+Iteration   3: 54.880 ns/op
+Iteration   4: 54.922 ns/op
+Iteration   5: 54.905 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.samplePoolPairs":
+  54.946 ±(99.9%) 0.263 ns/op [Average]
+  (min, avg, max) = (54.880, 54.946, 55.052), stdev = 0.068
+  CI (99.9%): [54.683, 55.209] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.samplePoolPairs
+# Parameters: (n = 64)
+
+# Run progress: 51.56% complete, ETA 00:52:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 88.423 ns/op
+# Warmup Iteration   2: 86.126 ns/op
+# Warmup Iteration   3: 88.985 ns/op
+# Warmup Iteration   4: 89.781 ns/op
+# Warmup Iteration   5: 89.014 ns/op
+Iteration   1: 88.915 ns/op
+Iteration   2: 89.279 ns/op
+Iteration   3: 89.077 ns/op
+Iteration   4: 90.131 ns/op
+Iteration   5: 89.022 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.samplePoolPairs":
+  89.285 ±(99.9%) 1.892 ns/op [Average]
+  (min, avg, max) = (88.915, 89.285, 90.131), stdev = 0.491
+  CI (99.9%): [87.393, 91.177] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.samplePoolPairs
+# Parameters: (n = 256)
+
+# Run progress: 53.13% complete, ETA 00:50:19
+# Fork: 1 of 1
+# Warmup Iteration   1: 295.670 ns/op
+# Warmup Iteration   2: 298.375 ns/op
+# Warmup Iteration   3: 299.444 ns/op
+# Warmup Iteration   4: 299.390 ns/op
+# Warmup Iteration   5: 299.681 ns/op
+Iteration   1: 298.922 ns/op
+Iteration   2: 298.996 ns/op
+Iteration   3: 298.471 ns/op
+Iteration   4: 298.870 ns/op
+Iteration   5: 298.901 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.samplePoolPairs":
+  298.832 ±(99.9%) 0.797 ns/op [Average]
+  (min, avg, max) = (298.471, 298.832, 298.996), stdev = 0.207
+  CI (99.9%): [298.035, 299.629] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.samplePoolPairs
+# Parameters: (n = 1024)
+
+# Run progress: 54.69% complete, ETA 00:48:39
+# Fork: 1 of 1
+# Warmup Iteration   1: 1193.159 ns/op
+# Warmup Iteration   2: 1211.823 ns/op
+# Warmup Iteration   3: 1212.053 ns/op
+# Warmup Iteration   4: 1215.366 ns/op
+# Warmup Iteration   5: 1208.839 ns/op
+Iteration   1: 1206.516 ns/op
+Iteration   2: 1209.883 ns/op
+Iteration   3: 1210.110 ns/op
+Iteration   4: 1206.232 ns/op
+Iteration   5: 1216.645 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.samplePoolPairs":
+  1209.877 ±(99.9%) 16.159 ns/op [Average]
+  (min, avg, max) = (1206.232, 1209.877, 1216.645), stdev = 4.196
+  CI (99.9%): [1193.719, 1226.036] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleReservoirLPairs
+# Parameters: (n = 16)
+
+# Run progress: 56.25% complete, ETA 00:46:58
+# Fork: 1 of 1
+# Warmup Iteration   1: 471.059 ns/op
+# Warmup Iteration   2: 468.827 ns/op
+# Warmup Iteration   3: 473.717 ns/op
+# Warmup Iteration   4: 468.467 ns/op
+# Warmup Iteration   5: 468.439 ns/op
+Iteration   1: 468.389 ns/op
+Iteration   2: 468.572 ns/op
+Iteration   3: 468.755 ns/op
+Iteration   4: 461.798 ns/op
+Iteration   5: 461.562 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleReservoirLPairs":
+  465.815 ±(99.9%) 14.547 ns/op [Average]
+  (min, avg, max) = (461.562, 465.815, 468.755), stdev = 3.778
+  CI (99.9%): [451.268, 480.362] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleReservoirLPairs
+# Parameters: (n = 64)
+
+# Run progress: 57.81% complete, ETA 00:45:17
+# Fork: 1 of 1
+# Warmup Iteration   1: 729.051 ns/op
+# Warmup Iteration   2: 725.373 ns/op
+# Warmup Iteration   3: 724.766 ns/op
+# Warmup Iteration   4: 725.118 ns/op
+# Warmup Iteration   5: 727.136 ns/op
+Iteration   1: 725.044 ns/op
+Iteration   2: 724.963 ns/op
+Iteration   3: 725.075 ns/op
+Iteration   4: 715.946 ns/op
+Iteration   5: 715.626 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleReservoirLPairs":
+  721.331 ±(99.9%) 19.497 ns/op [Average]
+  (min, avg, max) = (715.626, 721.331, 725.075), stdev = 5.063
+  CI (99.9%): [701.834, 740.828] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleReservoirLPairs
+# Parameters: (n = 256)
+
+# Run progress: 59.38% complete, ETA 00:43:37
+# Fork: 1 of 1
+# Warmup Iteration   1: 989.735 ns/op
+# Warmup Iteration   2: 984.766 ns/op
+# Warmup Iteration   3: 979.732 ns/op
+# Warmup Iteration   4: 979.452 ns/op
+# Warmup Iteration   5: 979.813 ns/op
+Iteration   1: 981.074 ns/op
+Iteration   2: 984.658 ns/op
+Iteration   3: 982.066 ns/op
+Iteration   4: 979.381 ns/op
+Iteration   5: 979.389 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleReservoirLPairs":
+  981.314 ±(99.9%) 8.448 ns/op [Average]
+  (min, avg, max) = (979.381, 981.314, 984.658), stdev = 2.194
+  CI (99.9%): [972.866, 989.761] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleReservoirLPairs
+# Parameters: (n = 1024)
+
+# Run progress: 60.94% complete, ETA 00:41:56
+# Fork: 1 of 1
+# Warmup Iteration   1: 1251.566 ns/op
+# Warmup Iteration   2: 1245.354 ns/op
+# Warmup Iteration   3: 1242.943 ns/op
+# Warmup Iteration   4: 1242.165 ns/op
+# Warmup Iteration   5: 1242.294 ns/op
+Iteration   1: 1242.800 ns/op
+Iteration   2: 1242.626 ns/op
+Iteration   3: 1242.504 ns/op
+Iteration   4: 1242.438 ns/op
+Iteration   5: 1243.351 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleReservoirLPairs":
+  1242.744 ±(99.9%) 1.410 ns/op [Average]
+  (min, avg, max) = (1242.438, 1242.744, 1243.351), stdev = 0.366
+  CI (99.9%): [1241.334, 1244.154] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleReservoirRPairs
+# Parameters: (n = 16)
+
+# Run progress: 62.50% complete, ETA 00:40:15
+# Fork: 1 of 1
+# Warmup Iteration   1: 148.113 ns/op
+# Warmup Iteration   2: 147.343 ns/op
+# Warmup Iteration   3: 178.261 ns/op
+# Warmup Iteration   4: 178.148 ns/op
+# Warmup Iteration   5: 178.424 ns/op
+Iteration   1: 178.037 ns/op
+Iteration   2: 178.087 ns/op
+Iteration   3: 178.507 ns/op
+Iteration   4: 178.483 ns/op
+Iteration   5: 178.001 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleReservoirRPairs":
+  178.223 ±(99.9%) 0.963 ns/op [Average]
+  (min, avg, max) = (178.001, 178.223, 178.507), stdev = 0.250
+  CI (99.9%): [177.260, 179.186] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleReservoirRPairs
+# Parameters: (n = 64)
+
+# Run progress: 64.06% complete, ETA 00:38:34
+# Fork: 1 of 1
+# Warmup Iteration   1: 485.787 ns/op
+# Warmup Iteration   2: 486.971 ns/op
+# Warmup Iteration   3: 632.330 ns/op
+# Warmup Iteration   4: 631.318 ns/op
+# Warmup Iteration   5: 632.126 ns/op
+Iteration   1: 631.908 ns/op
+Iteration   2: 632.007 ns/op
+Iteration   3: 631.858 ns/op
+Iteration   4: 633.268 ns/op
+Iteration   5: 637.763 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleReservoirRPairs":
+  633.361 ±(99.9%) 9.740 ns/op [Average]
+  (min, avg, max) = (631.858, 633.361, 637.763), stdev = 2.529
+  CI (99.9%): [623.621, 643.100] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleReservoirRPairs
+# Parameters: (n = 256)
+
+# Run progress: 65.63% complete, ETA 00:36:54
+# Fork: 1 of 1
+# Warmup Iteration   1: 1565.095 ns/op
+# Warmup Iteration   2: 1520.414 ns/op
+# Warmup Iteration   3: 2060.276 ns/op
+# Warmup Iteration   4: 2059.367 ns/op
+# Warmup Iteration   5: 2059.368 ns/op
+Iteration   1: 2066.255 ns/op
+Iteration   2: 2063.411 ns/op
+Iteration   3: 2060.329 ns/op
+Iteration   4: 2062.503 ns/op
+Iteration   5: 2060.123 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleReservoirRPairs":
+  2062.524 ±(99.9%) 9.682 ns/op [Average]
+  (min, avg, max) = (2060.123, 2062.524, 2066.255), stdev = 2.514
+  CI (99.9%): [2052.842, 2072.207] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleReservoirRPairs
+# Parameters: (n = 1024)
+
+# Run progress: 67.19% complete, ETA 00:35:13
+# Fork: 1 of 1
+# Warmup Iteration   1: 5976.479 ns/op
+# Warmup Iteration   2: 5817.113 ns/op
+# Warmup Iteration   3: 7937.452 ns/op
+# Warmup Iteration   4: 7935.566 ns/op
+# Warmup Iteration   5: 7917.874 ns/op
+Iteration   1: 7917.692 ns/op
+Iteration   2: 7918.519 ns/op
+Iteration   3: 7915.823 ns/op
+Iteration   4: 7923.680 ns/op
+Iteration   5: 7915.220 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomPairs.sampleReservoirRPairs":
+  7918.186 ±(99.9%) 12.903 ns/op [Average]
+  (min, avg, max) = (7915.220, 7918.186, 7923.680), stdev = 3.351
+  CI (99.9%): [7905.283, 7931.090] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.nextIntTriple
+# Parameters: (n = 16)
+
+# Run progress: 68.75% complete, ETA 00:33:32
+# Fork: 1 of 1
+# Warmup Iteration   1: 28.498 ns/op
+# Warmup Iteration   2: 28.275 ns/op
+# Warmup Iteration   3: 23.589 ns/op
+# Warmup Iteration   4: 23.592 ns/op
+# Warmup Iteration   5: 23.611 ns/op
+Iteration   1: 23.588 ns/op
+Iteration   2: 23.591 ns/op
+Iteration   3: 23.592 ns/op
+Iteration   4: 23.586 ns/op
+Iteration   5: 23.581 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.nextIntTriple":
+  23.587 ±(99.9%) 0.017 ns/op [Average]
+  (min, avg, max) = (23.581, 23.587, 23.592), stdev = 0.004
+  CI (99.9%): [23.571, 23.604] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.nextIntTriple
+# Parameters: (n = 64)
+
+# Run progress: 70.31% complete, ETA 00:31:52
+# Fork: 1 of 1
+# Warmup Iteration   1: 27.657 ns/op
+# Warmup Iteration   2: 27.837 ns/op
+# Warmup Iteration   3: 22.320 ns/op
+# Warmup Iteration   4: 22.508 ns/op
+# Warmup Iteration   5: 22.322 ns/op
+Iteration   1: 22.385 ns/op
+Iteration   2: 22.313 ns/op
+Iteration   3: 22.495 ns/op
+Iteration   4: 22.319 ns/op
+Iteration   5: 22.360 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.nextIntTriple":
+  22.375 ±(99.9%) 0.284 ns/op [Average]
+  (min, avg, max) = (22.313, 22.375, 22.495), stdev = 0.074
+  CI (99.9%): [22.091, 22.658] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.nextIntTriple
+# Parameters: (n = 256)
+
+# Run progress: 71.88% complete, ETA 00:30:11
+# Fork: 1 of 1
+# Warmup Iteration   1: 23.456 ns/op
+# Warmup Iteration   2: 23.367 ns/op
+# Warmup Iteration   3: 22.412 ns/op
+# Warmup Iteration   4: 22.485 ns/op
+# Warmup Iteration   5: 22.411 ns/op
+Iteration   1: 22.400 ns/op
+Iteration   2: 22.396 ns/op
+Iteration   3: 22.409 ns/op
+Iteration   4: 22.392 ns/op
+Iteration   5: 22.401 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.nextIntTriple":
+  22.400 ±(99.9%) 0.025 ns/op [Average]
+  (min, avg, max) = (22.392, 22.400, 22.409), stdev = 0.006
+  CI (99.9%): [22.375, 22.425] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.nextIntTriple
+# Parameters: (n = 1024)
+
+# Run progress: 73.44% complete, ETA 00:28:31
+# Fork: 1 of 1
+# Warmup Iteration   1: 26.938 ns/op
+# Warmup Iteration   2: 26.352 ns/op
+# Warmup Iteration   3: 21.862 ns/op
+# Warmup Iteration   4: 21.798 ns/op
+# Warmup Iteration   5: 21.794 ns/op
+Iteration   1: 21.887 ns/op
+Iteration   2: 21.827 ns/op
+Iteration   3: 21.783 ns/op
+Iteration   4: 21.840 ns/op
+Iteration   5: 21.820 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.nextIntTriple":
+  21.832 ±(99.9%) 0.145 ns/op [Average]
+  (min, avg, max) = (21.783, 21.832, 21.887), stdev = 0.038
+  CI (99.9%): [21.687, 21.976] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleInsertionTriples
+# Parameters: (n = 16)
+
+# Run progress: 75.00% complete, ETA 00:26:50
+# Fork: 1 of 1
+# Warmup Iteration   1: 48.030 ns/op
+# Warmup Iteration   2: 47.963 ns/op
+# Warmup Iteration   3: 41.783 ns/op
+# Warmup Iteration   4: 41.758 ns/op
+# Warmup Iteration   5: 41.755 ns/op
+Iteration   1: 41.780 ns/op
+Iteration   2: 41.765 ns/op
+Iteration   3: 41.776 ns/op
+Iteration   4: 41.756 ns/op
+Iteration   5: 41.766 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleInsertionTriples":
+  41.768 ±(99.9%) 0.037 ns/op [Average]
+  (min, avg, max) = (41.756, 41.768, 41.780), stdev = 0.009
+  CI (99.9%): [41.732, 41.805] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleInsertionTriples
+# Parameters: (n = 64)
+
+# Run progress: 76.56% complete, ETA 00:25:09
+# Fork: 1 of 1
+# Warmup Iteration   1: 48.198 ns/op
+# Warmup Iteration   2: 48.051 ns/op
+# Warmup Iteration   3: 41.084 ns/op
+# Warmup Iteration   4: 41.182 ns/op
+# Warmup Iteration   5: 41.609 ns/op
+Iteration   1: 41.091 ns/op
+Iteration   2: 41.097 ns/op
+Iteration   3: 41.240 ns/op
+Iteration   4: 41.148 ns/op
+Iteration   5: 41.128 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleInsertionTriples":
+  41.141 ±(99.9%) 0.232 ns/op [Average]
+  (min, avg, max) = (41.091, 41.141, 41.240), stdev = 0.060
+  CI (99.9%): [40.909, 41.373] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleInsertionTriples
+# Parameters: (n = 256)
+
+# Run progress: 78.13% complete, ETA 00:23:29
+# Fork: 1 of 1
+# Warmup Iteration   1: 44.063 ns/op
+# Warmup Iteration   2: 41.988 ns/op
+# Warmup Iteration   3: 45.608 ns/op
+# Warmup Iteration   4: 45.644 ns/op
+# Warmup Iteration   5: 45.601 ns/op
+Iteration   1: 45.619 ns/op
+Iteration   2: 45.614 ns/op
+Iteration   3: 45.586 ns/op
+Iteration   4: 45.609 ns/op
+Iteration   5: 45.640 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleInsertionTriples":
+  45.614 ±(99.9%) 0.075 ns/op [Average]
+  (min, avg, max) = (45.586, 45.614, 45.640), stdev = 0.019
+  CI (99.9%): [45.539, 45.689] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleInsertionTriples
+# Parameters: (n = 1024)
+
+# Run progress: 79.69% complete, ETA 00:21:48
+# Fork: 1 of 1
+# Warmup Iteration   1: 48.458 ns/op
+# Warmup Iteration   2: 47.958 ns/op
+# Warmup Iteration   3: 42.146 ns/op
+# Warmup Iteration   4: 42.137 ns/op
+# Warmup Iteration   5: 42.259 ns/op
+Iteration   1: 42.271 ns/op
+Iteration   2: 42.342 ns/op
+Iteration   3: 42.255 ns/op
+Iteration   4: 42.165 ns/op
+Iteration   5: 42.298 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleInsertionTriples":
+  42.266 ±(99.9%) 0.252 ns/op [Average]
+  (min, avg, max) = (42.165, 42.266, 42.342), stdev = 0.065
+  CI (99.9%): [42.014, 42.518] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.samplePoolTriples
+# Parameters: (n = 16)
+
+# Run progress: 81.25% complete, ETA 00:20:07
+# Fork: 1 of 1
+# Warmup Iteration   1: 68.688 ns/op
+# Warmup Iteration   2: 70.330 ns/op
+# Warmup Iteration   3: 59.356 ns/op
+# Warmup Iteration   4: 59.565 ns/op
+# Warmup Iteration   5: 59.367 ns/op
+Iteration   1: 59.476 ns/op
+Iteration   2: 59.377 ns/op
+Iteration   3: 59.415 ns/op
+Iteration   4: 59.327 ns/op
+Iteration   5: 59.343 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.samplePoolTriples":
+  59.388 ±(99.9%) 0.230 ns/op [Average]
+  (min, avg, max) = (59.327, 59.388, 59.476), stdev = 0.060
+  CI (99.9%): [59.157, 59.618] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.samplePoolTriples
+# Parameters: (n = 64)
+
+# Run progress: 82.81% complete, ETA 00:18:27
+# Fork: 1 of 1
+# Warmup Iteration   1: 89.342 ns/op
+# Warmup Iteration   2: 88.699 ns/op
+# Warmup Iteration   3: 91.682 ns/op
+# Warmup Iteration   4: 91.488 ns/op
+# Warmup Iteration   5: 91.272 ns/op
+Iteration   1: 91.386 ns/op
+Iteration   2: 91.273 ns/op
+Iteration   3: 91.285 ns/op
+Iteration   4: 91.440 ns/op
+Iteration   5: 91.350 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.samplePoolTriples":
+  91.347 ±(99.9%) 0.269 ns/op [Average]
+  (min, avg, max) = (91.273, 91.347, 91.440), stdev = 0.070
+  CI (99.9%): [91.078, 91.615] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.samplePoolTriples
+# Parameters: (n = 256)
+
+# Run progress: 84.38% complete, ETA 00:16:46
+# Fork: 1 of 1
+# Warmup Iteration   1: 292.816 ns/op
+# Warmup Iteration   2: 289.038 ns/op
+# Warmup Iteration   3: 285.713 ns/op
+# Warmup Iteration   4: 285.218 ns/op
+# Warmup Iteration   5: 286.121 ns/op
+Iteration   1: 286.354 ns/op
+Iteration   2: 286.220 ns/op
+Iteration   3: 285.850 ns/op
+Iteration   4: 285.817 ns/op
+Iteration   5: 285.692 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.samplePoolTriples":
+  285.987 ±(99.9%) 1.095 ns/op [Average]
+  (min, avg, max) = (285.692, 285.987, 286.354), stdev = 0.284
+  CI (99.9%): [284.891, 287.082] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.samplePoolTriples
+# Parameters: (n = 1024)
+
+# Run progress: 85.94% complete, ETA 00:15:05
+# Fork: 1 of 1
+# Warmup Iteration   1: 1195.790 ns/op
+# Warmup Iteration   2: 1184.448 ns/op
+# Warmup Iteration   3: 1177.261 ns/op
+# Warmup Iteration   4: 1176.985 ns/op
+# Warmup Iteration   5: 1175.096 ns/op
+Iteration   1: 1175.891 ns/op
+Iteration   2: 1177.577 ns/op
+Iteration   3: 1177.855 ns/op
+Iteration   4: 1178.309 ns/op
+Iteration   5: 1178.001 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.samplePoolTriples":
+  1177.527 ±(99.9%) 3.666 ns/op [Average]
+  (min, avg, max) = (1175.891, 1177.527, 1178.309), stdev = 0.952
+  CI (99.9%): [1173.861, 1181.193] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleReservoirLTriples
+# Parameters: (n = 16)
+
+# Run progress: 87.50% complete, ETA 00:13:25
+# Fork: 1 of 1
+# Warmup Iteration   1: 588.525 ns/op
+# Warmup Iteration   2: 583.511 ns/op
+# Warmup Iteration   3: 580.603 ns/op
+# Warmup Iteration   4: 581.045 ns/op
+# Warmup Iteration   5: 582.079 ns/op
+Iteration   1: 583.244 ns/op
+Iteration   2: 583.781 ns/op
+Iteration   3: 583.304 ns/op
+Iteration   4: 583.390 ns/op
+Iteration   5: 583.422 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleReservoirLTriples":
+  583.428 ±(99.9%) 0.807 ns/op [Average]
+  (min, avg, max) = (583.244, 583.428, 583.781), stdev = 0.209
+  CI (99.9%): [582.622, 584.235] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleReservoirLTriples
+# Parameters: (n = 64)
+
+# Run progress: 89.06% complete, ETA 00:11:44
+# Fork: 1 of 1
+# Warmup Iteration   1: 996.260 ns/op
+# Warmup Iteration   2: 992.263 ns/op
+# Warmup Iteration   3: 990.197 ns/op
+# Warmup Iteration   4: 991.684 ns/op
+# Warmup Iteration   5: 989.259 ns/op
+Iteration   1: 1026.164 ns/op
+Iteration   2: 1026.016 ns/op
+Iteration   3: 1025.967 ns/op
+Iteration   4: 1026.759 ns/op
+Iteration   5: 1028.083 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleReservoirLTriples":
+  1026.598 ±(99.9%) 3.422 ns/op [Average]
+  (min, avg, max) = (1025.967, 1026.598, 1028.083), stdev = 0.889
+  CI (99.9%): [1023.176, 1030.019] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleReservoirLTriples
+# Parameters: (n = 256)
+
+# Run progress: 90.63% complete, ETA 00:10:03
+# Fork: 1 of 1
+# Warmup Iteration   1: 1409.668 ns/op
+# Warmup Iteration   2: 1402.620 ns/op
+# Warmup Iteration   3: 1400.374 ns/op
+# Warmup Iteration   4: 1403.314 ns/op
+# Warmup Iteration   5: 1403.679 ns/op
+Iteration   1: 1411.111 ns/op
+Iteration   2: 1471.108 ns/op
+Iteration   3: 1472.263 ns/op
+Iteration   4: 1470.993 ns/op
+Iteration   5: 1471.238 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleReservoirLTriples":
+  1459.343 ±(99.9%) 103.841 ns/op [Average]
+  (min, avg, max) = (1411.111, 1459.343, 1472.263), stdev = 26.967
+  CI (99.9%): [1355.501, 1563.184] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleReservoirLTriples
+# Parameters: (n = 1024)
+
+# Run progress: 92.19% complete, ETA 00:08:23
+# Fork: 1 of 1
+# Warmup Iteration   1: 1848.641 ns/op
+# Warmup Iteration   2: 1901.074 ns/op
+# Warmup Iteration   3: 1814.395 ns/op
+# Warmup Iteration   4: 1813.686 ns/op
+# Warmup Iteration   5: 1813.005 ns/op
+Iteration   1: 1812.744 ns/op
+Iteration   2: 1815.630 ns/op
+Iteration   3: 1813.786 ns/op
+Iteration   4: 1920.094 ns/op
+Iteration   5: 1975.734 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleReservoirLTriples":
+  1867.598 ±(99.9%) 292.336 ns/op [Average]
+  (min, avg, max) = (1812.744, 1867.598, 1975.734), stdev = 75.919
+  CI (99.9%): [1575.262, 2159.933] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleReservoirRTriples
+# Parameters: (n = 16)
+
+# Run progress: 93.75% complete, ETA 00:06:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 144.680 ns/op
+# Warmup Iteration   2: 151.719 ns/op
+# Warmup Iteration   3: 179.404 ns/op
+# Warmup Iteration   4: 179.285 ns/op
+# Warmup Iteration   5: 179.315 ns/op
+Iteration   1: 179.396 ns/op
+Iteration   2: 179.288 ns/op
+Iteration   3: 179.324 ns/op
+Iteration   4: 179.344 ns/op
+Iteration   5: 179.219 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleReservoirRTriples":
+  179.314 ±(99.9%) 0.254 ns/op [Average]
+  (min, avg, max) = (179.219, 179.314, 179.396), stdev = 0.066
+  CI (99.9%): [179.060, 179.568] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleReservoirRTriples
+# Parameters: (n = 64)
+
+# Run progress: 95.31% complete, ETA 00:05:01
+# Fork: 1 of 1
+# Warmup Iteration   1: 510.728 ns/op
+# Warmup Iteration   2: 511.765 ns/op
+# Warmup Iteration   3: 651.824 ns/op
+# Warmup Iteration   4: 651.320 ns/op
+# Warmup Iteration   5: 652.242 ns/op
+Iteration   1: 651.856 ns/op
+Iteration   2: 652.243 ns/op
+Iteration   3: 652.037 ns/op
+Iteration   4: 651.739 ns/op
+Iteration   5: 651.972 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleReservoirRTriples":
+  651.969 ±(99.9%) 0.735 ns/op [Average]
+  (min, avg, max) = (651.739, 651.969, 652.243), stdev = 0.191
+  CI (99.9%): [651.235, 652.704] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleReservoirRTriples
+# Parameters: (n = 256)
+
+# Run progress: 96.88% complete, ETA 00:03:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 1647.562 ns/op
+# Warmup Iteration   2: 1591.392 ns/op
+# Warmup Iteration   3: 2111.007 ns/op
+# Warmup Iteration   4: 2118.435 ns/op
+# Warmup Iteration   5: 2123.172 ns/op
+Iteration   1: 2110.702 ns/op
+Iteration   2: 2109.191 ns/op
+Iteration   3: 2124.220 ns/op
+Iteration   4: 2112.193 ns/op
+Iteration   5: 2110.834 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleReservoirRTriples":
+  2113.428 ±(99.9%) 23.588 ns/op [Average]
+  (min, avg, max) = (2109.191, 2113.428, 2124.220), stdev = 6.126
+  CI (99.9%): [2089.839, 2137.016] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8
+# VM invoker: D:\InstalledPrograms\Adoptium\jdk-17.0.2.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleReservoirRTriples
+# Parameters: (n = 1024)
+
+# Run progress: 98.44% complete, ETA 00:01:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 6821.912 ns/op
+# Warmup Iteration   2: 6855.912 ns/op
+# Warmup Iteration   3: 8555.591 ns/op
+# Warmup Iteration   4: 8553.982 ns/op
+# Warmup Iteration   5: 8563.971 ns/op
+Iteration   1: 8553.567 ns/op
+Iteration   2: 8560.103 ns/op
+Iteration   3: 8552.823 ns/op
+Iteration   4: 8593.280 ns/op
+Iteration   5: 8560.782 ns/op
+
+
+Result "org.cicirello.experiments.smallsamples.TimeRandomTriples.sampleReservoirRTriples":
+  8564.111 ±(99.9%) 64.335 ns/op [Average]
+  (min, avg, max) = (8552.823, 8564.111, 8593.280), stdev = 16.708
+  CI (99.9%): [8499.776, 8628.446] (assumes normal distribution)
+
+
+# Run complete. Total time: 01:47:21
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                                 (n)  Mode  Cnt     Score     Error  Units
+TimeRandomCombinations.nextIntPairPreconstructedArray      16  avgt    5    13.699 ±   0.242  ns/op
+TimeRandomCombinations.nextIntPairPreconstructedArray      64  avgt    5    13.296 ±   0.120  ns/op
+TimeRandomCombinations.nextIntPairPreconstructedArray     256  avgt    5    13.156 ±   0.187  ns/op
+TimeRandomCombinations.nextIntPairPreconstructedArray    1024  avgt    5    13.183 ±   0.396  ns/op
+TimeRandomCombinations.nextIntPairReturningArray           16  avgt    5    16.084 ±   0.065  ns/op
+TimeRandomCombinations.nextIntPairReturningArray           64  avgt    5    15.546 ±   0.048  ns/op
+TimeRandomCombinations.nextIntPairReturningArray          256  avgt    5    15.633 ±   0.511  ns/op
+TimeRandomCombinations.nextIntPairReturningArray         1024  avgt    5    15.427 ±   0.073  ns/op
+TimeRandomCombinations.nextIntPairReturningIndexPair       16  avgt    5    12.443 ±   0.014  ns/op
+TimeRandomCombinations.nextIntPairReturningIndexPair       64  avgt    5    11.983 ±   0.288  ns/op
+TimeRandomCombinations.nextIntPairReturningIndexPair      256  avgt    5    11.820 ±   0.116  ns/op
+TimeRandomCombinations.nextIntPairReturningIndexPair     1024  avgt    5    11.853 ±   0.494  ns/op
+TimeRandomCombinations.nextIntTriplePreconstructedArray    16  avgt    5    21.727 ±   0.048  ns/op
+TimeRandomCombinations.nextIntTriplePreconstructedArray    64  avgt    5    20.511 ±   0.063  ns/op
+TimeRandomCombinations.nextIntTriplePreconstructedArray   256  avgt    5    21.039 ±   0.031  ns/op
+TimeRandomCombinations.nextIntTriplePreconstructedArray  1024  avgt    5    20.024 ±   0.464  ns/op
+TimeRandomCombinations.nextIntTripleReturningArray         16  avgt    5    23.800 ±   0.107  ns/op
+TimeRandomCombinations.nextIntTripleReturningArray         64  avgt    5    23.163 ±   0.046  ns/op
+TimeRandomCombinations.nextIntTripleReturningArray        256  avgt    5    23.430 ±   0.040  ns/op
+TimeRandomCombinations.nextIntTripleReturningArray       1024  avgt    5    22.755 ±   0.055  ns/op
+TimeRandomCombinations.nextIntTripleReturningIndexPair     16  avgt    5    19.224 ±   0.016  ns/op
+TimeRandomCombinations.nextIntTripleReturningIndexPair     64  avgt    5    17.981 ±   0.030  ns/op
+TimeRandomCombinations.nextIntTripleReturningIndexPair    256  avgt    5    18.668 ±   0.169  ns/op
+TimeRandomCombinations.nextIntTripleReturningIndexPair   1024  avgt    5    18.346 ±   0.098  ns/op
+TimeRandomPairs.nextIntPair                                16  avgt    5    15.997 ±   0.451  ns/op
+TimeRandomPairs.nextIntPair                                64  avgt    5    15.622 ±   0.098  ns/op
+TimeRandomPairs.nextIntPair                               256  avgt    5    15.698 ±   0.642  ns/op
+TimeRandomPairs.nextIntPair                              1024  avgt    5    15.745 ±   0.019  ns/op
+TimeRandomPairs.sampleInsertionPairs                       16  avgt    5    24.099 ±   0.049  ns/op
+TimeRandomPairs.sampleInsertionPairs                       64  avgt    5    24.144 ±   0.115  ns/op
+TimeRandomPairs.sampleInsertionPairs                      256  avgt    5    24.257 ±   0.039  ns/op
+TimeRandomPairs.sampleInsertionPairs                     1024  avgt    5    23.600 ±   0.065  ns/op
+TimeRandomPairs.samplePoolPairs                            16  avgt    5    54.946 ±   0.263  ns/op
+TimeRandomPairs.samplePoolPairs                            64  avgt    5    89.285 ±   1.892  ns/op
+TimeRandomPairs.samplePoolPairs                           256  avgt    5   298.832 ±   0.797  ns/op
+TimeRandomPairs.samplePoolPairs                          1024  avgt    5  1209.877 ±  16.159  ns/op
+TimeRandomPairs.sampleReservoirLPairs                      16  avgt    5   465.815 ±  14.547  ns/op
+TimeRandomPairs.sampleReservoirLPairs                      64  avgt    5   721.331 ±  19.497  ns/op
+TimeRandomPairs.sampleReservoirLPairs                     256  avgt    5   981.314 ±   8.448  ns/op
+TimeRandomPairs.sampleReservoirLPairs                    1024  avgt    5  1242.744 ±   1.410  ns/op
+TimeRandomPairs.sampleReservoirRPairs                      16  avgt    5   178.223 ±   0.963  ns/op
+TimeRandomPairs.sampleReservoirRPairs                      64  avgt    5   633.361 ±   9.740  ns/op
+TimeRandomPairs.sampleReservoirRPairs                     256  avgt    5  2062.524 ±   9.682  ns/op
+TimeRandomPairs.sampleReservoirRPairs                    1024  avgt    5  7918.186 ±  12.903  ns/op
+TimeRandomTriples.nextIntTriple                            16  avgt    5    23.587 ±   0.017  ns/op
+TimeRandomTriples.nextIntTriple                            64  avgt    5    22.375 ±   0.284  ns/op
+TimeRandomTriples.nextIntTriple                           256  avgt    5    22.400 ±   0.025  ns/op
+TimeRandomTriples.nextIntTriple                          1024  avgt    5    21.832 ±   0.145  ns/op
+TimeRandomTriples.sampleInsertionTriples                   16  avgt    5    41.768 ±   0.037  ns/op
+TimeRandomTriples.sampleInsertionTriples                   64  avgt    5    41.141 ±   0.232  ns/op
+TimeRandomTriples.sampleInsertionTriples                  256  avgt    5    45.614 ±   0.075  ns/op
+TimeRandomTriples.sampleInsertionTriples                 1024  avgt    5    42.266 ±   0.252  ns/op
+TimeRandomTriples.samplePoolTriples                        16  avgt    5    59.388 ±   0.230  ns/op
+TimeRandomTriples.samplePoolTriples                        64  avgt    5    91.347 ±   0.269  ns/op
+TimeRandomTriples.samplePoolTriples                       256  avgt    5   285.987 ±   1.095  ns/op
+TimeRandomTriples.samplePoolTriples                      1024  avgt    5  1177.527 ±   3.666  ns/op
+TimeRandomTriples.sampleReservoirLTriples                  16  avgt    5   583.428 ±   0.807  ns/op
+TimeRandomTriples.sampleReservoirLTriples                  64  avgt    5  1026.598 ±   3.422  ns/op
+TimeRandomTriples.sampleReservoirLTriples                 256  avgt    5  1459.343 ± 103.841  ns/op
+TimeRandomTriples.sampleReservoirLTriples                1024  avgt    5  1867.598 ± 292.336  ns/op
+TimeRandomTriples.sampleReservoirRTriples                  16  avgt    5   179.314 ±   0.254  ns/op
+TimeRandomTriples.sampleReservoirRTriples                  64  avgt    5   651.969 ±   0.735  ns/op
+TimeRandomTriples.sampleReservoirRTriples                 256  avgt    5  2113.428 ±  23.588  ns/op
+TimeRandomTriples.sampleReservoirRTriples                1024  avgt    5  8564.111 ±  64.335  ns/op
