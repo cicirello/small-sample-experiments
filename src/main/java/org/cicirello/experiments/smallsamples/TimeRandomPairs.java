@@ -56,8 +56,16 @@ public class TimeRandomPairs {
   @Fork(value = 1)
   @OutputTimeUnit(TimeUnit.NANOSECONDS)
   @BenchmarkMode(Mode.AverageTime)
-  public int[] sampleReservoirPairs(ExecutionPlan plan) {
+  public int[] sampleReservoirRPairs(ExecutionPlan plan) {
     return generator.sampleReservoir(plan.n, 2, null);
+  }
+
+  @Benchmark
+  @Fork(value = 1)
+  @OutputTimeUnit(TimeUnit.NANOSECONDS)
+  @BenchmarkMode(Mode.AverageTime)
+  public int[] sampleReservoirLPairs(ExecutionPlan plan) {
+    return ReservoirL.sampleReservoirL(plan.n, 2, null, generator);
   }
 
   @Benchmark
