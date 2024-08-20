@@ -56,8 +56,16 @@ public class TimeRandomTriples {
   @Fork(value = 1)
   @OutputTimeUnit(TimeUnit.NANOSECONDS)
   @BenchmarkMode(Mode.AverageTime)
-  public int[] sampleReservoirTriples(ExecutionPlan plan) {
+  public int[] sampleReservoirRTriples(ExecutionPlan plan) {
     return generator.sampleReservoir(plan.n, 3, null);
+  }
+
+  @Benchmark
+  @Fork(value = 1)
+  @OutputTimeUnit(TimeUnit.NANOSECONDS)
+  @BenchmarkMode(Mode.AverageTime)
+  public int[] sampleReservoirLTriples(ExecutionPlan plan) {
+    return ReservoirL.sampleReservoirL(plan.n, 3, null, generator);
   }
 
   @Benchmark

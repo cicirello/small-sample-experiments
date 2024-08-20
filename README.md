@@ -4,7 +4,7 @@ This repository contains the code and raw experiment data for the the following 
 
 > Vincent A. Cicirello. 2024. [Algorithms for Generating Small Random Samples](https://reports.cicirello.org/24/008/). Technical Report ALG-24-008, Cicirello.org, May 2024. [[PDF]](https://reports.cicirello.org/24/008/ALG-24-008.pdf)
 
-The experiments utilize the [&rho;&mu;](https://rho-mu.cicirello.org/) library, version 4.0.0,
+The experiments utilize the [&rho;&mu;](https://rho-mu.cicirello.org/) library, version 4.2.0,
 which is automatically imported during the build from the [Maven Central 
 Repository](https://central.sonatype.com/artifact/org.cicirello/rho-mu).
 
@@ -17,7 +17,7 @@ mvn clean package
 ```
 
 The requirements for building the experiments is the same as for building
-[&rho;&mu;](https://rho-mu.cicirello.org/) version 4.0.0. which is Java 17+.
+[&rho;&mu;](https://rho-mu.cicirello.org/) version 4.2.0. which is Java 17+.
 
 ## Running the Experiments
 
@@ -29,6 +29,14 @@ run it with the following:
 java -jar target/small-sample-experiments-1.0.0-jar-with-dependencies.jar
 ```
 
+Note that this will take a couple hours to run in its entirety.
+
 ## Data
 
-If you just want to inspect the results from my run, you can find the data in [results.txt](results.txt).
+If you just want to inspect the results from my run, you can find the data 
+in [results.txt](results.txt).
+
+There is an additional data file, [results-with-rho-mu-4.0.0.txt](results-with-rho-mu-4.0.0.txt), 
+from earlier runs with &rho;&mu; 4.0.0, where the `nextIntTriple` was implemented differently, 
+and which didn't include reservoir L for comparison. This is the data for the version of the
+experiments from earlier preprint versions of the paper.
