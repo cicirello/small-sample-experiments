@@ -10,6 +10,10 @@ The experiments utilize the [&rho;&mu;](https://rho-mu.cicirello.org/) library, 
 which is automatically imported during the build from the [Maven Central 
 Repository](https://central.sonatype.com/artifact/org.cicirello/rho-mu).
 
+| __DOI__ | [![DOI](doi.svg)](https://doi.org/10.1002/spe.3379) |
+| :--- | :--- |
+| __License__ | [![GitHub](https://img.shields.io/github/license/cicirello/small-sample-experiments)](LICENSE) | 
+
 ## Building
 
 To build the experiments with Maven, execute the following at the command line:
