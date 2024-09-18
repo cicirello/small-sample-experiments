@@ -2,9 +2,9 @@
 
 Copyright &copy; 2024 Vincent A. Cicirello
 
-This repository contains the code and raw experiment data for the the following report:
+This repository contains the code and raw experiment data for the the following journal article:
 
-> Vincent A. Cicirello. 2024. [Algorithms for Generating Small Random Samples](https://www.cicirello.org/publications/cicirello2024spe.html). *Software: Practice and Experience*, 2024. doi:[10.1002/spe.3379](https://doi.org/10.1002/spe.3379). Link to [[Full-Text]](https://onlinelibrary.wiley.com/share/author/J3S4KWMDVFFZNMFS9RY5?target=10.1002/spe.3379).
+> Vincent A. Cicirello. 2024. [Algorithms for Generating Small Random Samples](https://www.cicirello.org/publications/cicirello2024spe.html). *Software: Practice and Experience*, 2024. doi:[10.1002/spe.3379](https://doi.org/10.1002/spe.3379). Access the [[Full-Text]](https://onlinelibrary.wiley.com/share/author/J3S4KWMDVFFZNMFS9RY5?target=10.1002/spe.3379).
 
 The experiments utilize the [&rho;&mu;](https://rho-mu.cicirello.org/) library, version 4.2.0,
 which is automatically imported during the build from the [Maven Central 
