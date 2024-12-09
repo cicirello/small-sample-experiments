@@ -1,0 +1,20 @@
+cff-version: "1.2.0"
+message: "If you use this software, please cite it using these metadata."
+authors: 
+- family-names: "Cicirello"
+  given-names: "Vincent A"
+  orcid: "https://orcid.org/0000-0003-1072-8559"
+title: "Algorithms for Generating Small Random Samples"
+license: "GPL-3.0-or-later"
+url: "https://github.com/cicirello/small-sample-experiments"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Cicirello"
+    given-names: "Vincent A"
+    orcid: "https://orcid.org/0000-0003-1072-8559"
+  doi: "10.1002/spe.3379"
+  journal: "Software: Practice and Experience"
+  title: "Algorithms for Generating Small Random Samples"
+  year: 2024
+  month: 9
