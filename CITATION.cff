@@ -16,5 +16,9 @@ preferred-citation:
   doi: "10.1002/spe.3379"
   journal: "Software: Practice and Experience"
   title: "Algorithms for Generating Small Random Samples"
-  year: 2024
-  month: 9
+  year: 2025
+  month: 2
+  volume: 55
+  issue: 2
+  start: 298
+  end: 306
